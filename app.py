@@ -26,7 +26,7 @@ from telegram.ext import (Application, CommandHandler, MessageHandler,
 # ⚙️  SOZLAMALAR
 # ══════════════════════════════════════════════════════
 BOT_TOKEN    = "8429885576:AAG3DAvRNl2RKtDDZoghij70ixm3CnJoTUY"      # @BotFather dan
-MINI_APP_URL = ""    # index.html URL
+MINI_APP_URL = "https://behruz20102010.github.io/rollups/"    # index.html URL
 ADMIN_ID     = 5201473096                  # Sizning Telegram ID
 HOUSE_FEE    = 0.15
 COUNTDOWN    = 15
@@ -365,4 +365,5 @@ async def main():
     await asyncio.Event().wait()
 
 if __name__ == "__main__":
+
     asyncio.run(main())
